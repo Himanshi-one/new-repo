@@ -1,0 +1,213 @@
+body
+{
+    background-color: #EAE7DC;
+}
+.header
+{
+ 
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  color:#E85A4F;
+ background-color:	#E0E0E0;
+}
+.header .searchsec{
+    width:400px;
+}
+.header hr{
+    color: black;
+   
+}
+.navbar hr{
+    color: black;
+}
+.header img
+{
+height:70px;
+width:70px;
+padding:10px;
+}
+.searchsec
+{
+float:right;
+display: flex;
+
+}
+.searchsec .btn{
+    background-color: #D8C3A5;
+}
+.dropdown-toggle::after {
+   
+    color:#E85A4F;
+}
+.navbar
+{
+ padding: 10px;
+ margin-top: 80px;
+ 
+}
+.navbar-nav span{
+    color: #65635d;
+    font-size: 20px;
+}
+img.icon
+{
+width:40px;
+}
+.carousel-item img
+{
+width:60% !important;
+height:1000px;
+margin:0 auto;
+
+}
+.scrollicon
+{
+    color:black;
+    background-color:#D8C3A5 ;
+    padding: 20px;
+    border-radius: 40px;
+  
+}
+.gallery h1
+{
+    padding: 20px;
+    color:#65635d;
+}
+.customerstory h1
+{
+    padding: 20px;
+    color:#65635d;
+}
+.customerstory .btn{
+    background-color: #E98074;
+}
+.customerstory h5{
+    color:#E98074;
+}
+
+.aboutus 
+{
+ 
+    font-size: 20px;
+}
+.aboutus h1
+{
+    color:#65635d;
+}
+.aboutus span
+{
+    color:#E85A4F;
+    font-weight: bold;
+}
+.aboutus p{
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+.contact .btn
+{
+    background-color:#E85A4F ;
+}
+
+.icon1 ul {
+ 
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+    text-align:center;
+}
+  .icon1 ul li
+{
+    font-size: 30px;
+    display: inline;
+    
+   
+}
+  .icon1 ul li a
+  {
+  color:black;
+  padding: 10px;
+ 
+ 
+  }
+  .icon1 ul li a:hover
+  {
+  color:#E85A4F ;
+}
+.footer img
+{
+height:70px;
+width:70px;
+padding:10px;
+}
+.footer
+{
+    font-size: 20px;
+
+}
+.footer .brandname
+{
+    font-family: 'Oswald', sans-serif;
+  font-size: 28px; 
+  color: #E85A4F;
+}
+.footer .nav a:hover
+{
+    color:#E85A4F;
+}
+.icon2 ul {
+ 
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+   
+}
+  .icon2 ul li
+{
+    font-size: 30px;
+  
+}
+  .icon2 ul li a{
+  color:black;
+ 
+  }
+  .icon2 ul li a:hover
+  {
+  color:#E85A4F ;
+}
+.contactinfo a{
+color:black;
+}
+hr{
+    margin:0;
+}
+.copyright
+{
+    color:#E85A4F ;
+}
+
+
+ 
+
+@media only screen and (max-width:725px)
+{
+    .carousel-item img
+{
+width:70% !important;
+height:300px;
+margin:0 auto;
+}
+
+.searchsec
+{
+   float:left;
+   width:60%;
+   justify-content: space-between;
+}
+.aboutus p{
+    margin:0 auto;
+    font-size: 15px;
+}
+
+}
